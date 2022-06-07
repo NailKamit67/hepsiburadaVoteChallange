@@ -1,0 +1,12 @@
+.link__button {
+    height: 50px;
+    border-radius: 30px;
+    background-color: #000;
+    color: #FFF;
+    font-weight: 600;
+    min-width: 100px;
+}
+
+.link__button:hover {
+    color: #FFF;
+}

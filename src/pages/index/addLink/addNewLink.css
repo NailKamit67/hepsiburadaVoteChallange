@@ -1,0 +1,56 @@
+.addLink {
+    width: 100%;
+}
+.addLink__return {
+    display: flex;
+    justify-content: flex-start;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.addLink__return i {
+    font-size: 20px;
+    font-weight: 800;
+    margin-right: 5px;
+}
+
+.addLink__title{
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: left;
+}
+.addLink__label {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 20px;
+}
+
+.alert-success {
+    position: absolute;
+    top: 50px;
+    left: 30%;
+    right: 30%;
+    box-shadow: 0px 0px 21px -5px;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: lightgreen;
+    color: green;
+    border-color: green;
+}
+
+.alert-error {
+    position: absolute;
+    top: 50px;
+    left: 30%;
+    right: 30%;
+    box-shadow: 0px 0px 21px -5px;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: lightcoral;
+    color: crimson;
+    border-color: crimson;
+}

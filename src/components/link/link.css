@@ -1,0 +1,143 @@
+.link {
+    display: flex;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.link:hover {
+    box-shadow: 0px 0px 21px -5px rgba(0,0,0,0.75);
+}
+
+.link__deleteIcon {
+    display: none;
+}
+
+.link:hover  .link__deleteIcon {
+    display: unset;
+    position: relative;
+    top: -15px;
+    right: -15px;
+}
+
+@media screen and (max-width: 768px) {
+    .link:hover  .link__deleteIcon {
+        top: -15px;
+        right: 10px;
+    }
+
+}
+.link__leftColumn {
+    width: 120px;
+    background-color: lightgray;
+    border: 1px solid gray;
+    height: 120px;
+    border-radius: 10px;
+}
+
+.link__rightColumn {
+    width: 80%;
+    padding-left: 10px;
+}
+
+.link__rightColumn p {
+    text-align: left;
+}
+
+.link__point {
+    height: 100%;
+    display: block;
+    font-size: 25px;
+}
+
+.link__pointNumber {
+    font-weight: 800;
+}
+
+.link__vote {
+    display: flex;
+    margin-top: 10px;
+}
+
+.link__title{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.link p {
+    margin: 0;
+}
+
+.link__down,
+.link__up {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+    color: #000;
+}
+
+.link__up:hover{
+    color: green;
+    font-weight: 800;
+}
+
+.link__down:hover {
+    color: red;
+    font-weight: 800;
+}
+
+.link__up--true {
+    color: green;
+    font-weight: 800;
+}
+
+.link__down--true {
+    color: red;
+    font-weight: 800;
+}
+.link__vote i {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.link__down {
+    margin-left: 100px;
+}
+
+.modal-header {
+    background-color: crimson;
+    color: #FFF;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.alert-success {
+    position: absolute;
+    top: 50px;
+    left: 30%;
+    right: 30%;
+    box-shadow: 0px 0px 21px -5px;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: lightgreen;
+    color: green;
+    border-color: green;
+}
+
+.alert-error {
+    position: absolute;
+    top: 50px;
+    left: 30%;
+    right: 30%;
+    box-shadow: 0px 0px 21px -5px;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: lightcoral;
+    color: crimson;
+    border-color: crimson;
+}
+

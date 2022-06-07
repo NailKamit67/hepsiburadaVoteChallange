@@ -1,0 +1,38 @@
+.page_addButton {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.page_addButton i {
+    font-size: 60px;
+}
+
+.page_addButton span {
+    font-size: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.page__link {
+    margin-top: 20px;
+}
+
+.page__order {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+
+.page-link {
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 768px) {
+    .page_addButton span {
+        font-size: 30px;
+    }
+
+}
